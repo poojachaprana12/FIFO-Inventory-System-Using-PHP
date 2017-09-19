@@ -1,0 +1,283 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+   /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+#graph_bar svg{width:100%!important;}
+.top_nav {
+  background: #2b2b2b none repeat scroll 0 0;
+  float: left;
+  padding: 0 35px;
+  width: 100%;
+}
+h3.tilele {
+  color: #fff;
+  float: left;
+  margin-top: 12px;
+}
+.user-profile img {
+  border-radius: 50%;
+  height: 29px;
+  margin-right: 10px;
+  width: 29px;
+}
+.nav > li > a {color:#fff;}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: transparent;
+  border-color: #337ab7;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+.btn.btn-primery {
+  background: #41a7da none repeat scroll 0 0;
+  color: #fff;
+  width: 100%;
+}
+.content-tt {
+  float: left;
+  min-height: 538px;
+  padding: 35px;
+  width: 100%;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: transparent;
+  color:#fff;
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.nav.nav-tabs {
+  border: medium none;
+}
+
+.main-tab > .tab-content {
+  border: 1px solid #ddd;
+  padding: 15px 25px;
+}
+.custom-table-width table {
+  width: 100%;
+}
+.img-hover:hover {
+    opacity: 0.8;
+}
+.main-tab .nav-tabs li a {
+  background: #dfdfdf none repeat scroll 0 0;
+  border: medium none;
+  color: #3f3f3f;
+  font-size: 16px;
+  padding: 10px 37px;
+}
+.main-tab .nav-tabs li.active a{color:#fff;background:#41a7da;  border: medium none;outline:none;}
+.inner-tab .nav-tabs li a{border-radius:0;width:100%;}
+.inner-tab .nav-tabs li {width:50%;text-align:center;}
+.inner-tab .tab-content {
+  padding-top: 20px;
+}
+input.without-border {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: -moz-use-text-color -moz-use-text-color #ddd;
+  border-image: none;
+  border-style: none none solid;
+  border-width: medium medium 1px;
+  display: block;
+  margin: 5px auto;
+  padding: 6px 0;
+  width: 83%;
+}
+.red {
+  color: red;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+  border-left: 1px solid #afafaf;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+.color-bg{background:#dfdfdf;}
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+.modal-content {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  float: left;
+  width: 100%;
+}
+.modal-header {
+  float: left;
+  width: 100%;
+}
+.modal-body {
+  float: left;
+  width: 100%;
+}
+.form-lable {
+  float: left;
+  padding: 12px 36px;
+  width: 100%;
+}
+.with-border {
+  border: 1px solid #ddd;
+  float: left;
+  padding: 8px 11px;
+  width: 100%;
+}
+.text-fool {
+  border: 1px solid #ddd;
+  float: left;
+  padding: 10px 14px;
+  width: 100%;
+}
+.blue-text {
+  color: #41a7da;
+}
+.btn.btn-primery.cutom-width.pull-left {
+  background: #41a7da none repeat scroll 0 0;
+  color: #fff;
+  width: 49%;
+}.btn.btn-red-grey.cutom-width.pull-right {
+  width: 49%;
+}
+.toggle-handle {
+  border-radius: 100%;
+  border-width: 0 1px;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 0;
+  padding-top: 0;
+  position: relative;
+  right: 13px;
+  width: 0;
+}
+.btn.btn-primary.classs-off {
+  background: #aaaaaa none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 100%;
+  height: 17px;
+  padding: 0;
+  width: 17px;
+}
+.btn span.glyphicon-bg {
+  background: #41a7da none repeat scroll 0 0;
+  border-radius: 100%;
+  height: 17px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  width: 17px;
+}
+.btn.active span.glyphicon-bg {				
+	opacity: 1;				
+}
+.inner-tab2 .nav.nav-tabs li{width:33.33%;text-align:center;}
+.inner-tab2 .nav.nav-tabs li a{width:100%;border-radius:0;border:none;}
+.inner-tab2 .tab-content{padding-top:20px;}
+.modal-footer {
+  float: left;
+  width: 100%;
+}
+.main-footer{padding:20px 35px;color:#fff;background:black;float:left;width:100%;}
+.main-footer p{margin:0;padding:0;color:#fff;}
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+.navbar-right {
+  float: right !important;
+  margin-right: 0;
+}
+/* Footer Styles */
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
