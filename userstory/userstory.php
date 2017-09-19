@@ -7,11 +7,6 @@ if( empty($_SESSION['UserName'])){
 	echo '<script>window.location = "login.php";</script>';
 }
 
-$uname=$_SESSION['UserName'];
-$sql1= mysql_query("select * from users where UserName='$uname'");
-$num1=mysql_fetch_array($sql1);
-$uId=$num1['User_Id'];
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
